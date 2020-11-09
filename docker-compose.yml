@@ -1,0 +1,8 @@
+version: "3"
+services:
+  mocksqs:
+    image: mock-sqs
+    build:
+      context: ./mockSQS
+    ports:
+      - "9324:9324"
